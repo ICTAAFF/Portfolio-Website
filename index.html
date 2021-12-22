@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>WONDERFUL WORLD OF TUNNELS!</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat&family=Karla:wght@200&family=Luckiest+Guy&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    
+<!----Title and discription---->
+    <div class="center container">
+     <h1>
+        Hello there, Welcome to the Wonderful World of Tunnels!
+     </h1>
+     <h3 class="description">
+        DESCRIPTION
+     </h3>
+     <p class="description">
+        This CS project is a way of solution for a problem in my STEM project. My project was about the theory behind tunnels. I made a simultion experiment to know the difference in the tunnels' shapes and which is the most suitable one. I used a CAD software where I applied the load on the tunnels that I designed, to give me the stress test result. While doing my project, I had to calculate the load. That's what this page is for! You baisically have to put the needed numbers and it will give out the load from the mountain to the tunnel!
+      </p>
+
+<!----About my poster ---->
+     <h3 class="description">
+        Poster
+     </h3>
+     <p class="description">
+        If you would like to know more about my STEM project, click on the poster below↓ 
+     </p>
+ <!---This is Modal for my poster--->
+   <!-- Trigger the Modal -->
+      <img id="myPoster" src="Stem Poster.jpg" style="width:20%;max-width:300px">
+   <!-- The Modal -->
+      <div id="myModal" class="modal">
+   <!-- The Close Button -->
+      <span class="close">&times;</span>
+   <!-- Modal Content (The Image) -->
+      <img class="modal-content" id="poster1">
+
+</div>  
+
+<!----Algorithm (load calculation) ---->
+   <!--Input -->
+     <h3 class="description">
+        Load Calculation
+     </h3>
+     <p class="description">
+        Now, put the values needed to get the load        
+     </p>
+
+     <p class="input">
+       Surface Area (m<sup>2</sup>): <input type="text" id="input-SA" value="6300" >
+     </p>
+        
+     <p class="input">
+        Height (m<sup></sup>): <input type="text" id="input-H"  value="10">
+     </p>
+        
+     <p class="input">
+       Density (kg/m<sup>3</sup>): <input type="text" id="input-D"  value="1760">
+     </p>
+   <!--Output -->   
+     <p>
+        <input type="button" id="calculate" value="Calculate!">
+     </p>
+     
+     <p class= "load">
+      The Load is... <span id="load" ></span>
+     </p>
+     
+    </div>
+    <script src="script.js"></script>
+
+</body>
+  
+<footer>
+<!--Thank you -->  
+     <div class="center container">
+     <h1>
+      ...</br>Thank you✩
+     </h1>  
+       
+</footer>
+
+</html>
